@@ -1,0 +1,28 @@
+@use '../../../../../styles/_vars.scss' as v;
+
+  .card-answer {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: v.$grey;
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin: 0.4rem auto;
+    width: auto;
+    display: flex;
+align-items: center;
+  }
+
+  .card-input {
+    width: auto;
+    font-size: 0.8rem;
+  }
+
+
+  .true {
+    background-color: #54da7a;
+  }
+  
+  .false {
+    background-color: #da5466;
+  }
+  

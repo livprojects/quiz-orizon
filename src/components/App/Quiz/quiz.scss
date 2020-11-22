@@ -1,0 +1,145 @@
+
+@use '../../../styles/_vars.scss' as v;
+
+
+.quiz {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  vertical-align: center;
+  // position: fixed;
+  z-index: 10;
+
+
+  &-title {
+
+    font-family: 'Kosugimaru', Arial, sans-serif;
+    color: v.$yellow;
+    padding-bottom: 0.7rem;
+    font-size: 1.3rem;
+
+  }
+
+  &-description {
+    font-size: 0.9rem;
+  }
+
+  &-intro {
+
+    color: v.$white;
+    text-align: center;
+  line-height: 1.2;
+
+  }
+
+  &-score {
+    font-family: 'Kosugimaru', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1rem auto;
+  
+  }
+
+
+  &-results {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: v.$white;
+    width: 80%;
+    padding: 0.5rem;
+    margin: 1rem auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+  
+  }
+  
+
+  
+  &-answers {
+    margin: 1rem auto;
+  }
+  
+}
+
+
+.closequiz {
+  color: #d5ad44;
+  margin: 2rem 0rem 1rem 17rem;
+  cursor: pointer;
+
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+  padding: 0.2rem;
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 0.3rem auto;
+}
+
+@media (max-width: 600px) {
+
+  .quiz {
+
+    height: 400px;
+    overflow: auto;
+
+  &-title {
+
+    font-size: 1.1rem;
+
+  }
+
+  &-description {
+    font-size: 0.8rem;
+  }
+
+  &-intro {
+
+    color: v.$white;
+    text-align: center;
+
+  }
+
+  &-score {
+    font-family: 'Kosugimaru', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 2rem auto;
+  
+  }
+
+
+  &-results {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: v.$white;
+    width: 80%;
+    background-color:  v.$dark-blue;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+  
+  }
+  
+
+  
+  &-answers {
+    margin: 1rem auto;
+  }
+  }
+  
+  }
+  
+  

@@ -1,0 +1,75 @@
+@use '../../../../styles/_vars.scss' as v;
+
+.cardquiz {
+  color: v.$white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: v.$dark-blue;
+  padding: 0.6rem;
+  margin: 0.5rem auto;
+  border-radius: 20px;
+
+  &-title {
+    padding: 0.3rem;
+    text-align: center;  
+  }
+  &-wiki {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem auto;
+  }
+  &-nbanswers {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.6rem;
+    padding: 0.2rem;
+  }
+}
+
+.button {
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 0.3rem auto;
+}
+
+
+
+@media (max-width: 600px) {
+
+  .cardquiz {
+
+    &-title {
+      font-size: 0.8rem;
+    }
+
+    &-wiki {
+      text-align: center;
+      font-size: 0.7rem;
+      margin-bottom: 0.4rem auto;
+    }
+    &-nbanswers {
+      text-align: center;
+      font-style: italic;
+      font-size: 0.5rem;
+      padding: 0.2rem;
+    }
+  }
+  
+  .button {
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    padding: 0.2rem;
+    font-size: 0.7rem;
+    text-align: center;
+    margin: 0.3rem auto;
+  }
+  
+  }
+  
+  
