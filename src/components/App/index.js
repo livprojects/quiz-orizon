@@ -3,7 +3,7 @@ import React from 'react';
 
 // == Import
 import Quiz from './Quiz';
-import './styles.css';
+import './styles.scss';
 
 // == Composant
 const App = () => (
