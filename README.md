@@ -1,7 +1,7 @@
 
 
 ### Orizon - Quiz feature ###
-This quiz feature is imported from the Orizon [project](https://github.com/livprojects/orizon). While Orizon is a team project, I was the only one working on the quiz feature; this is why it appears separately on my Github profile. 
+This quiz feature is imported from the Orizon [project](https://github.com/livprojects/orizon-prod). While Orizon is a team project, I was the only one working on the quiz feature; this is why it appears separately on my Github profile. 
 
 A full demonstration of the Orizon project is available [here](https://www.youtube.com/watch?v=yRnSeJcDcPs&feature=youtu.be&t=5041) (in French). 
 
